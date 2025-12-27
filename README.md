@@ -1,12 +1,12 @@
-# Pendle Vault Integration Project
+# Hitvamp Vault Integration Project
 
-This repository contains a full-stack blockchain integration project for interacting with Pendle vaults. It includes smart contracts, deployment scripts, and a modern frontend for user interaction.
+This repository contains a full-stack blockchain integration project for interacting with Hitvamp vaults. It includes smart contracts, deployment scripts, and a modern frontend for user interaction.
 
 ## Project Structure
 
 ```
 frontend/        # Next.js frontend application
-pendle/          # Solidity smart contracts and Foundry tests
+Hitvamp/          # Solidity smart contracts and Foundry tests
 ```
 
 ### Frontend
@@ -16,14 +16,14 @@ pendle/          # Solidity smart contracts and Foundry tests
 - Uses modern React patterns and hooks
 
 ### Smart Contracts
-- Located in the `pendle/` directory
+- Located in the `Hitvamp/` directory
 - Written in Solidity
 - Includes contracts for vault locking, yield management, and interfaces
 - Uses Foundry for testing and deployment
 
 #### Key Contracts
 - `fixedLockVault.sol`: Main vault contract
-- `pendleLock.sol`: Handles Pendle-specific locking logic
+- `HitvampLock.sol`: Handles Hitvamp-specific locking logic
 - `yieldLockManager.sol`: Manages yield and lock operations
 - `interfaces/`: ERC20 and router interfaces
 - `libraries/`: Helper libraries
@@ -68,7 +68,7 @@ The app will be available at `http://localhost:3000`.
 
 ### Running Tests
 ```bash
-cd pendle
+cd Hitvamp
 forge test
 ```
 
